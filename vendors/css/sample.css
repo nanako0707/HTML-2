@@ -1,0 +1,73 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* ここから */
+header {
+  height: 60px;
+  background-color: #333333;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+header ul a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+header li {
+  list-style: none;
+}
+header ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* ここまでがheader部分の実装 */
+.main-header img {
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+  width: 30%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.about {
+/* About Achieve部分の実装 */
+}
+/* ここから */
+.function {
+  background-color: #C0C0C0;
+  padding: 30px;
+}
+.function-images {
+  display: flex;
+  justify-content: center;
+}
+.function-image {
+  padding: 30px;
+}
+/* ここまでがfunction部分の実装 */
+footer {
+/* footer部分の実装 */
+  height: 80px;
+  background-color: #28344c;
+  color: white;
+  padding-top: 10px;
+}
+/* ここに書かれているcssの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構わない。課題要件を満たし、コードの品質が一定の水準にあると判定されればどのような実装でも合格になる。 */
